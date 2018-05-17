@@ -26,7 +26,6 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ToolStripContainer1 = New System.Windows.Forms.ToolStripContainer()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
         Me.ANIMATION = New System.Windows.Forms.ToolStripButton()
         Me.REMONTEES = New System.Windows.Forms.ToolStripButton()
@@ -39,6 +38,7 @@ Partial Class Form1
         Me.GMAO = New System.Windows.Forms.ToolStripButton()
         Me.UTILISATEURS = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.ToolStripContainer1.ContentPanel.SuspendLayout()
         Me.ToolStripContainer1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
@@ -52,14 +52,14 @@ Partial Class Form1
         '
         Me.ToolStripContainer1.ContentPanel.Controls.Add(Me.ToolStrip1)
         Me.ToolStripContainer1.ContentPanel.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
-        Me.ToolStripContainer1.ContentPanel.Size = New System.Drawing.Size(1324, 73)
+        Me.ToolStripContainer1.ContentPanel.Size = New System.Drawing.Size(1324, 78)
         Me.ToolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ToolStripContainer1.LeftToolStripPanelVisible = False
         Me.ToolStripContainer1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStripContainer1.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.ToolStripContainer1.Name = "ToolStripContainer1"
         Me.ToolStripContainer1.RightToolStripPanelVisible = False
-        Me.ToolStripContainer1.Size = New System.Drawing.Size(1324, 73)
+        Me.ToolStripContainer1.Size = New System.Drawing.Size(1324, 78)
         Me.ToolStripContainer1.TabIndex = 0
         Me.ToolStripContainer1.Text = "ToolStripContainer1"
         Me.ToolStripContainer1.TopToolStripPanelVisible = False
@@ -76,25 +76,9 @@ Partial Class Form1
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Padding = New System.Windows.Forms.Padding(0)
-        Me.ToolStrip1.Size = New System.Drawing.Size(1324, 73)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1324, 78)
         Me.ToolStrip1.TabIndex = 0
         Me.ToolStrip1.Text = "ToolStrip1"
-        '
-        'ImageList1
-        '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList1.Images.SetKeyName(0, "accueil.png")
-        Me.ImageList1.Images.SetKeyName(1, "construction-worker-hat-clipart-free-vector-hard-hat-clip-art_106367_Hard_Hat_cli" &
-        "p_art_hight.png")
-        Me.ImageList1.Images.SetKeyName(2, "location-icon.png")
-        Me.ImageList1.Images.SetKeyName(3, "user-group-icon.png")
-        Me.ImageList1.Images.SetKeyName(4, "Remontees.png")
-        Me.ImageList1.Images.SetKeyName(5, "reports_256.png")
-        Me.ImageList1.Images.SetKeyName(6, "avalanche-512.png")
-        Me.ImageList1.Images.SetKeyName(7, "remontee-mecanique.png")
-        Me.ImageList1.Images.SetKeyName(8, "avalanche-512.png")
-        Me.ImageList1.Images.SetKeyName(9, "ski_318-9893.png.jpg")
         '
         'ToolStripLabel1
         '
@@ -148,7 +132,6 @@ Partial Class Form1
         '
         Me.ACCEUIL.AutoSize = False
         Me.ACCEUIL.BackColor = System.Drawing.Color.White
-        Me.ACCEUIL.Enabled = False
         Me.ACCEUIL.Image = CType(resources.GetObject("ACCEUIL.Image"), System.Drawing.Image)
         Me.ACCEUIL.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ACCEUIL.Name = "ACCEUIL"
@@ -244,12 +227,28 @@ Partial Class Form1
         Me.ToolStripLabel2.Name = "ToolStripLabel2"
         Me.ToolStripLabel2.Size = New System.Drawing.Size(110, 68)
         '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "accueil.png")
+        Me.ImageList1.Images.SetKeyName(1, "construction-worker-hat-clipart-free-vector-hard-hat-clip-art_106367_Hard_Hat_cli" &
+        "p_art_hight.png")
+        Me.ImageList1.Images.SetKeyName(2, "location-icon.png")
+        Me.ImageList1.Images.SetKeyName(3, "user-group-icon.png")
+        Me.ImageList1.Images.SetKeyName(4, "Remontees.png")
+        Me.ImageList1.Images.SetKeyName(5, "reports_256.png")
+        Me.ImageList1.Images.SetKeyName(6, "avalanche-512.png")
+        Me.ImageList1.Images.SetKeyName(7, "remontee-mecanique.png")
+        Me.ImageList1.Images.SetKeyName(8, "avalanche-512.png")
+        Me.ImageList1.Images.SetKeyName(9, "ski_318-9893.png.jpg")
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(3.0!, 6.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1324, 73)
+        Me.ClientSize = New System.Drawing.Size(1324, 78)
         Me.Controls.Add(Me.ToolStripContainer1)
         Me.Font = New System.Drawing.Font("Segoe UI", 3.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
