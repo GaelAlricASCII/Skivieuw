@@ -1,0 +1,11 @@
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\bin\Debug\SKI VIEW.exe.config
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\bin\Debug\SKI VIEW.exe
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\bin\Debug\SKI VIEW.pdb
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\bin\Debug\SKI VIEW.xml
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\obj\Debug\SKI VIEW.vbprojResolveAssemblyReference.cache
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\obj\Debug\SKI_VIEW.Form1.resources
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\obj\Debug\SKI_VIEW.Resources.resources
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\obj\Debug\SKI VIEW.vbproj.GenerateResource.Cache
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\obj\Debug\SKI VIEW.exe
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\obj\Debug\SKI VIEW.xml
+C:\Users\CDU\AppData\Local\Temporary Projects\SKI VIEW\obj\Debug\SKI VIEW.pdb

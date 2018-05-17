@@ -1,0 +1,43 @@
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.exe.config
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.exe
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.pdb
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.xml
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\obj\Debug\SKI_VIEW.Form1.resources
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\obj\Debug\SKI_VIEW.Resources.resources
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.vbproj.GenerateResource.Cache
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.exe
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.xml
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.pdb
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.vbprojResolveAssemblyReference.cache
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.exe.config
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.exe
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.xml
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.pdb
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.exe
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.pdb
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.xml
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI_VIEW.Form1.resources
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI_VIEW.Resources.resources
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.vbproj.GenerateResource.Cache
+C:\Users\CDU\Documents\AFFAIRES\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.vbprojResolveAssemblyReference.cache
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.exe.config
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.exe
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.pdb
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\bin\Debug\SKI VIEW1.xml
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.vbprojResolveAssemblyReference.cache
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI_VIEW.Form1.resources
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI_VIEW.Resources.resources
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.vbproj.GenerateResource.Cache
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.exe
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.xml
+C:\Users\CDU\Documents\SKI VIEW\SOURCES\SKI VIEW\SKI VIEW1\SKI VIEW1\obj\Debug\SKI VIEW1.pdb
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\bin\Debug\SKI VIEW1.exe.config
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.exe
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.xml
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.pdb
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\bin\Debug\SKI VIEW1.exe
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\bin\Debug\SKI VIEW1.pdb
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\bin\Debug\SKI VIEW1.xml
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI_VIEW.Form1.resources
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI_VIEW.Resources.resources
+C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.vbproj.GenerateResource.Cache
