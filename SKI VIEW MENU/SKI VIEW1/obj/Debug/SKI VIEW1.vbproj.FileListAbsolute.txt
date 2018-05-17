@@ -41,3 +41,7 @@ C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\bin\Debug\SKI VI
 C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI_VIEW.Form1.resources
 C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI_VIEW.Resources.resources
 C:\Users\Administrateur\Desktop\SkiView\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.vbproj.GenerateResource.Cache
+C:\Users\GALRIC\Documents\GitHub\Skivieuw\SKI VIEW MENU\SKI VIEW1\bin\Debug\SKI VIEW1.exe.config
+C:\Users\GALRIC\Documents\GitHub\Skivieuw\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.exe
+C:\Users\GALRIC\Documents\GitHub\Skivieuw\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.xml
+C:\Users\GALRIC\Documents\GitHub\Skivieuw\SKI VIEW MENU\SKI VIEW1\obj\Debug\SKI VIEW1.pdb
