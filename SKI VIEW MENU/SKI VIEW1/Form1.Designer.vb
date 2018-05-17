@@ -132,6 +132,7 @@ Partial Class Form1
         '
         Me.ACCEUIL.AutoSize = False
         Me.ACCEUIL.BackColor = System.Drawing.Color.White
+        Me.ACCEUIL.Enabled = False
         Me.ACCEUIL.Image = CType(resources.GetObject("ACCEUIL.Image"), System.Drawing.Image)
         Me.ACCEUIL.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ACCEUIL.Name = "ACCEUIL"
