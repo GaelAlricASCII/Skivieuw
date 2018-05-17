@@ -74,6 +74,14 @@
 
     End Sub
 
+    Private Sub Form1_FormClosing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        Dim DialogResult = MessageBox.Show("Etes-vous sur de vouloir quitter SkiVieuw ?", "Fermeture de SKIVIEUW", MessageBoxButtons.YesNo)
+        If (DialogResult = DialogResult.No) Then
+            e.Cancel = True
+        End If
+
+    End Sub
+
 #End Region
 
 End Class
