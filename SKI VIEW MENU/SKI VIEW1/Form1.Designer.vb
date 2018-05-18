@@ -25,23 +25,29 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.ToolStripContainer1 = New System.Windows.Forms.ToolStripContainer()
-        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
-        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
-        Me.ANIMATION = New System.Windows.Forms.ToolStripButton()
-        Me.REMONTEES = New System.Windows.Forms.ToolStripButton()
-        Me.PISTES = New System.Windows.Forms.ToolStripButton()
-        Me.ACCEUIL = New System.Windows.Forms.ToolStripButton()
-        Me.MESSAGERIE = New System.Windows.Forms.ToolStripButton()
-        Me.PIDA = New System.Windows.Forms.ToolStripButton()
-        Me.GEOLOCALISATION = New System.Windows.Forms.ToolStripButton()
-        Me.REPORTING = New System.Windows.Forms.ToolStripButton()
-        Me.GMAO = New System.Windows.Forms.ToolStripButton()
-        Me.UTILISATEURS = New System.Windows.Forms.ToolStripButton()
-        Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.BtnGMAO = New System.Windows.Forms.Button()
+        Me.BtnUtilisateur = New System.Windows.Forms.Button()
+        Me.BtnReport = New System.Windows.Forms.Button()
+        Me.BtnGeo = New System.Windows.Forms.Button()
+        Me.BtnPida = New System.Windows.Forms.Button()
+        Me.BtnMessagerie = New System.Windows.Forms.Button()
+        Me.BtnPiste = New System.Windows.Forms.Button()
+        Me.BtnAcc = New System.Windows.Forms.Button()
+        Me.BtnSupervision = New System.Windows.Forms.Button()
+        Me.BtnRm = New System.Windows.Forms.Button()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
+        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.ToolStripContainer1.ContentPanel.SuspendLayout()
         Me.ToolStripContainer1.SuspendLayout()
-        Me.ToolStrip1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.StatusStrip1.SuspendLayout()
+        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SplitContainer1.Panel1.SuspendLayout()
+        Me.SplitContainer1.Panel2.SuspendLayout()
+        Me.SplitContainer1.SuspendLayout()
         Me.SuspendLayout()
         '
         'ToolStripContainer1
@@ -50,183 +56,150 @@ Partial Class Form1
         '
         'ToolStripContainer1.ContentPanel
         '
-        Me.ToolStripContainer1.ContentPanel.Controls.Add(Me.ToolStrip1)
+        Me.ToolStripContainer1.ContentPanel.Controls.Add(Me.SplitContainer1)
+        Me.ToolStripContainer1.ContentPanel.Controls.Add(Me.StatusStrip1)
         Me.ToolStripContainer1.ContentPanel.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
-        Me.ToolStripContainer1.ContentPanel.Size = New System.Drawing.Size(1324, 78)
+        Me.ToolStripContainer1.ContentPanel.Size = New System.Drawing.Size(536, 524)
         Me.ToolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.ToolStripContainer1.LeftToolStripPanelVisible = False
         Me.ToolStripContainer1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStripContainer1.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.ToolStripContainer1.Name = "ToolStripContainer1"
         Me.ToolStripContainer1.RightToolStripPanelVisible = False
-        Me.ToolStripContainer1.Size = New System.Drawing.Size(1324, 78)
+        Me.ToolStripContainer1.Size = New System.Drawing.Size(536, 524)
         Me.ToolStripContainer1.TabIndex = 0
         Me.ToolStripContainer1.Text = "ToolStripContainer1"
         Me.ToolStripContainer1.TopToolStripPanelVisible = False
         '
-        'ToolStrip1
+        'BtnGMAO
         '
-        Me.ToolStrip1.AllowDrop = True
-        Me.ToolStrip1.BackColor = System.Drawing.Color.White
-        Me.ToolStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(48, 48)
-        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripLabel1, Me.ANIMATION, Me.REMONTEES, Me.PISTES, Me.ACCEUIL, Me.MESSAGERIE, Me.PIDA, Me.GEOLOCALISATION, Me.REPORTING, Me.GMAO, Me.UTILISATEURS, Me.ToolStripLabel2})
-        Me.ToolStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.Flow
-        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Padding = New System.Windows.Forms.Padding(0)
-        Me.ToolStrip1.Size = New System.Drawing.Size(1324, 78)
-        Me.ToolStrip1.TabIndex = 0
-        Me.ToolStrip1.Text = "ToolStrip1"
+        Me.BtnGMAO.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnGMAO.BackgroundImage = CType(resources.GetObject("BtnGMAO.BackgroundImage"), System.Drawing.Image)
+        Me.BtnGMAO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnGMAO.Enabled = False
+        Me.BtnGMAO.Location = New System.Drawing.Point(279, 156)
+        Me.BtnGMAO.Name = "BtnGMAO"
+        Me.BtnGMAO.Size = New System.Drawing.Size(82, 71)
+        Me.BtnGMAO.TabIndex = 11
+        Me.BtnGMAO.UseVisualStyleBackColor = True
         '
-        'ToolStripLabel1
+        'BtnUtilisateur
         '
-        Me.ToolStripLabel1.AutoSize = False
-        Me.ToolStripLabel1.BackColor = System.Drawing.Color.White
-        Me.ToolStripLabel1.BackgroundImage = Global.SKI_VIEW.My.Resources.Resources._02_skiview_logo
-        Me.ToolStripLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ToolStripLabel1.Enabled = False
-        Me.ToolStripLabel1.Margin = New System.Windows.Forms.Padding(2, 3, 0, 2)
-        Me.ToolStripLabel1.Name = "ToolStripLabel1"
-        Me.ToolStripLabel1.Size = New System.Drawing.Size(110, 68)
+        Me.BtnUtilisateur.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnUtilisateur.BackgroundImage = CType(resources.GetObject("BtnUtilisateur.BackgroundImage"), System.Drawing.Image)
+        Me.BtnUtilisateur.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnUtilisateur.Enabled = False
+        Me.BtnUtilisateur.Location = New System.Drawing.Point(141, 156)
+        Me.BtnUtilisateur.Name = "BtnUtilisateur"
+        Me.BtnUtilisateur.Size = New System.Drawing.Size(82, 71)
+        Me.BtnUtilisateur.TabIndex = 10
+        Me.BtnUtilisateur.UseVisualStyleBackColor = True
         '
-        'ANIMATION
+        'BtnReport
         '
-        Me.ANIMATION.AutoSize = False
-        Me.ANIMATION.BackColor = System.Drawing.Color.White
-        Me.ANIMATION.Image = CType(resources.GetObject("ANIMATION.Image"), System.Drawing.Image)
-        Me.ANIMATION.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ANIMATION.Name = "ANIMATION"
-        Me.ANIMATION.Size = New System.Drawing.Size(110, 68)
-        Me.ANIMATION.Text = "SUPERVISION"
-        Me.ANIMATION.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ANIMATION.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnReport.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnReport.BackgroundImage = CType(resources.GetObject("BtnReport.BackgroundImage"), System.Drawing.Image)
+        Me.BtnReport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnReport.Enabled = False
+        Me.BtnReport.Location = New System.Drawing.Point(416, 80)
+        Me.BtnReport.Name = "BtnReport"
+        Me.BtnReport.Size = New System.Drawing.Size(82, 71)
+        Me.BtnReport.TabIndex = 9
+        Me.BtnReport.UseVisualStyleBackColor = True
         '
-        'REMONTEES
+        'BtnGeo
         '
-        Me.REMONTEES.AutoSize = False
-        Me.REMONTEES.BackColor = System.Drawing.Color.White
-        Me.REMONTEES.Image = CType(resources.GetObject("REMONTEES.Image"), System.Drawing.Image)
-        Me.REMONTEES.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.REMONTEES.Name = "REMONTEES"
-        Me.REMONTEES.Size = New System.Drawing.Size(110, 68)
-        Me.REMONTEES.Text = "REMONTEES"
-        Me.REMONTEES.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.REMONTEES.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnGeo.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnGeo.BackgroundImage = CType(resources.GetObject("BtnGeo.BackgroundImage"), System.Drawing.Image)
+        Me.BtnGeo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnGeo.Enabled = False
+        Me.BtnGeo.Location = New System.Drawing.Point(279, 79)
+        Me.BtnGeo.Name = "BtnGeo"
+        Me.BtnGeo.Size = New System.Drawing.Size(82, 71)
+        Me.BtnGeo.TabIndex = 8
+        Me.BtnGeo.UseVisualStyleBackColor = True
         '
-        'PISTES
+        'BtnPida
         '
-        Me.PISTES.AutoSize = False
-        Me.PISTES.BackColor = System.Drawing.Color.White
-        Me.PISTES.Enabled = False
-        Me.PISTES.Image = CType(resources.GetObject("PISTES.Image"), System.Drawing.Image)
-        Me.PISTES.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.PISTES.Name = "PISTES"
-        Me.PISTES.Size = New System.Drawing.Size(110, 68)
-        Me.PISTES.Text = "PISTES"
-        Me.PISTES.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.PISTES.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnPida.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnPida.BackgroundImage = CType(resources.GetObject("BtnPida.BackgroundImage"), System.Drawing.Image)
+        Me.BtnPida.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnPida.Enabled = False
+        Me.BtnPida.Location = New System.Drawing.Point(141, 79)
+        Me.BtnPida.Name = "BtnPida"
+        Me.BtnPida.Size = New System.Drawing.Size(82, 71)
+        Me.BtnPida.TabIndex = 7
+        Me.BtnPida.UseVisualStyleBackColor = True
         '
-        'ACCEUIL
+        'BtnMessagerie
         '
-        Me.ACCEUIL.AutoSize = False
-        Me.ACCEUIL.BackColor = System.Drawing.Color.White
-        Me.ACCEUIL.Enabled = False
-        Me.ACCEUIL.Image = CType(resources.GetObject("ACCEUIL.Image"), System.Drawing.Image)
-        Me.ACCEUIL.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.ACCEUIL.Name = "ACCEUIL"
-        Me.ACCEUIL.Size = New System.Drawing.Size(110, 68)
-        Me.ACCEUIL.Text = "ACCEUIL CENTRAL"
-        Me.ACCEUIL.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.ACCEUIL.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnMessagerie.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnMessagerie.BackgroundImage = CType(resources.GetObject("BtnMessagerie.BackgroundImage"), System.Drawing.Image)
+        Me.BtnMessagerie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnMessagerie.Enabled = False
+        Me.BtnMessagerie.Location = New System.Drawing.Point(12, 80)
+        Me.BtnMessagerie.Name = "BtnMessagerie"
+        Me.BtnMessagerie.Size = New System.Drawing.Size(82, 71)
+        Me.BtnMessagerie.TabIndex = 6
+        Me.BtnMessagerie.UseVisualStyleBackColor = True
         '
-        'MESSAGERIE
+        'BtnPiste
         '
-        Me.MESSAGERIE.AutoSize = False
-        Me.MESSAGERIE.BackColor = System.Drawing.Color.White
-        Me.MESSAGERIE.Enabled = False
-        Me.MESSAGERIE.Image = CType(resources.GetObject("MESSAGERIE.Image"), System.Drawing.Image)
-        Me.MESSAGERIE.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.MESSAGERIE.Name = "MESSAGERIE"
-        Me.MESSAGERIE.Size = New System.Drawing.Size(110, 68)
-        Me.MESSAGERIE.Text = "MESSAGERIE"
-        Me.MESSAGERIE.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.MESSAGERIE.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnPiste.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnPiste.BackgroundImage = CType(resources.GetObject("BtnPiste.BackgroundImage"), System.Drawing.Image)
+        Me.BtnPiste.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnPiste.Enabled = False
+        Me.BtnPiste.Location = New System.Drawing.Point(279, 2)
+        Me.BtnPiste.Name = "BtnPiste"
+        Me.BtnPiste.Size = New System.Drawing.Size(82, 71)
+        Me.BtnPiste.TabIndex = 5
+        Me.BtnPiste.UseVisualStyleBackColor = True
         '
-        'PIDA
+        'BtnAcc
         '
-        Me.PIDA.AutoSize = False
-        Me.PIDA.BackColor = System.Drawing.Color.White
-        Me.PIDA.Enabled = False
-        Me.PIDA.Image = CType(resources.GetObject("PIDA.Image"), System.Drawing.Image)
-        Me.PIDA.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.PIDA.Name = "PIDA"
-        Me.PIDA.Size = New System.Drawing.Size(110, 68)
-        Me.PIDA.Text = "PIDA"
-        Me.PIDA.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.PIDA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnAcc.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnAcc.BackgroundImage = CType(resources.GetObject("BtnAcc.BackgroundImage"), System.Drawing.Image)
+        Me.BtnAcc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnAcc.Enabled = False
+        Me.BtnAcc.Location = New System.Drawing.Point(416, 2)
+        Me.BtnAcc.Name = "BtnAcc"
+        Me.BtnAcc.Size = New System.Drawing.Size(82, 71)
+        Me.BtnAcc.TabIndex = 4
+        Me.BtnAcc.UseVisualStyleBackColor = True
         '
-        'GEOLOCALISATION
+        'BtnSupervision
         '
-        Me.GEOLOCALISATION.AutoSize = False
-        Me.GEOLOCALISATION.BackColor = System.Drawing.Color.White
-        Me.GEOLOCALISATION.Enabled = False
-        Me.GEOLOCALISATION.Image = CType(resources.GetObject("GEOLOCALISATION.Image"), System.Drawing.Image)
-        Me.GEOLOCALISATION.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.GEOLOCALISATION.Margin = New System.Windows.Forms.Padding(0)
-        Me.GEOLOCALISATION.Name = "GEOLOCALISATION"
-        Me.GEOLOCALISATION.Size = New System.Drawing.Size(110, 68)
-        Me.GEOLOCALISATION.Text = "GEOLOCALISATION"
-        Me.GEOLOCALISATION.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.GEOLOCALISATION.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnSupervision.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnSupervision.BackgroundImage = CType(resources.GetObject("BtnSupervision.BackgroundImage"), System.Drawing.Image)
+        Me.BtnSupervision.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnSupervision.Location = New System.Drawing.Point(141, 2)
+        Me.BtnSupervision.Name = "BtnSupervision"
+        Me.BtnSupervision.Size = New System.Drawing.Size(82, 71)
+        Me.BtnSupervision.TabIndex = 3
+        Me.BtnSupervision.UseVisualStyleBackColor = True
         '
-        'REPORTING
+        'BtnRm
         '
-        Me.REPORTING.AutoSize = False
-        Me.REPORTING.BackColor = System.Drawing.Color.White
-        Me.REPORTING.Enabled = False
-        Me.REPORTING.Image = CType(resources.GetObject("REPORTING.Image"), System.Drawing.Image)
-        Me.REPORTING.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.REPORTING.Name = "REPORTING"
-        Me.REPORTING.Size = New System.Drawing.Size(110, 68)
-        Me.REPORTING.Text = "REPORTING"
-        Me.REPORTING.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.REPORTING.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
+        Me.BtnRm.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.BtnRm.BackColor = System.Drawing.Color.Transparent
+        Me.BtnRm.BackgroundImage = CType(resources.GetObject("BtnRm.BackgroundImage"), System.Drawing.Image)
+        Me.BtnRm.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.BtnRm.Location = New System.Drawing.Point(12, 2)
+        Me.BtnRm.Name = "BtnRm"
+        Me.BtnRm.Size = New System.Drawing.Size(82, 71)
+        Me.BtnRm.TabIndex = 2
+        Me.BtnRm.UseVisualStyleBackColor = False
         '
-        'GMAO
+        'PictureBox1
         '
-        Me.GMAO.AutoSize = False
-        Me.GMAO.BackColor = System.Drawing.Color.White
-        Me.GMAO.Enabled = False
-        Me.GMAO.Image = CType(resources.GetObject("GMAO.Image"), System.Drawing.Image)
-        Me.GMAO.ImageTransparentColor = System.Drawing.Color.MediumAquamarine
-        Me.GMAO.Name = "GMAO"
-        Me.GMAO.Size = New System.Drawing.Size(110, 68)
-        Me.GMAO.Text = "GMAO"
-        Me.GMAO.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.GMAO.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'UTILISATEURS
-        '
-        Me.UTILISATEURS.AutoSize = False
-        Me.UTILISATEURS.BackColor = System.Drawing.Color.White
-        Me.UTILISATEURS.Enabled = False
-        Me.UTILISATEURS.Image = CType(resources.GetObject("UTILISATEURS.Image"), System.Drawing.Image)
-        Me.UTILISATEURS.ImageTransparentColor = System.Drawing.Color.Magenta
-        Me.UTILISATEURS.Name = "UTILISATEURS"
-        Me.UTILISATEURS.Size = New System.Drawing.Size(110, 68)
-        Me.UTILISATEURS.Text = "UTILISATEURS"
-        Me.UTILISATEURS.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.UTILISATEURS.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
-        '
-        'ToolStripLabel2
-        '
-        Me.ToolStripLabel2.AutoSize = False
-        Me.ToolStripLabel2.BackgroundImage = CType(resources.GetObject("ToolStripLabel2.BackgroundImage"), System.Drawing.Image)
-        Me.ToolStripLabel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ToolStripLabel2.Name = "ToolStripLabel2"
-        Me.ToolStripLabel2.Size = New System.Drawing.Size(110, 68)
+        Me.PictureBox1.BackgroundImage = Global.SKI_VIEW.My.Resources.Resources._02_skiview_logo1
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(536, 266)
+        Me.PictureBox1.TabIndex = 1
+        Me.PictureBox1.TabStop = False
         '
         'ImageList1
         '
@@ -244,44 +217,94 @@ Partial Class Form1
         Me.ImageList1.Images.SetKeyName(8, "avalanche-512.png")
         Me.ImageList1.Images.SetKeyName(9, "ski_318-9893.png.jpg")
         '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 502)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(536, 22)
+        Me.StatusStrip1.TabIndex = 12
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'ToolStripStatusLabel1
+        '
+        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(121, 17)
+        Me.ToolStripStatusLabel1.Text = "ToolStripStatusLabel1"
+        '
+        'SplitContainer1
+        '
+        Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer1.Name = "SplitContainer1"
+        Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
+        '
+        'SplitContainer1.Panel1
+        '
+        Me.SplitContainer1.Panel1.Controls.Add(Me.PictureBox1)
+        '
+        'SplitContainer1.Panel2
+        '
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnAcc)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnPiste)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnUtilisateur)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnGMAO)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnSupervision)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnRm)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnMessagerie)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnPida)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnGeo)
+        Me.SplitContainer1.Panel2.Controls.Add(Me.BtnReport)
+        Me.SplitContainer1.Size = New System.Drawing.Size(536, 502)
+        Me.SplitContainer1.SplitterDistance = 266
+        Me.SplitContainer1.TabIndex = 13
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(3.0!, 6.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(1324, 78)
+        Me.ClientSize = New System.Drawing.Size(536, 524)
         Me.Controls.Add(Me.ToolStripContainer1)
         Me.Font = New System.Drawing.Font("Segoe UI", 3.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2, 1, 2, 1)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.MinimumSize = New System.Drawing.Size(130, 111)
         Me.Name = "Form1"
-        Me.Text = "Nom Utilisateur"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "SKI VIEW"
         Me.ToolStripContainer1.ContentPanel.ResumeLayout(False)
         Me.ToolStripContainer1.ContentPanel.PerformLayout()
         Me.ToolStripContainer1.ResumeLayout(False)
         Me.ToolStripContainer1.PerformLayout()
-        Me.ToolStrip1.ResumeLayout(False)
-        Me.ToolStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
+        Me.SplitContainer1.Panel1.ResumeLayout(False)
+        Me.SplitContainer1.Panel2.ResumeLayout(False)
+        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.SplitContainer1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
 
     Friend WithEvents ToolStripContainer1 As ToolStripContainer
-    Friend WithEvents ToolStrip1 As ToolStrip
-    Friend WithEvents ANIMATION As ToolStripButton
-    Friend WithEvents REMONTEES As ToolStripButton
-    Friend WithEvents PISTES As ToolStripButton
-    Friend WithEvents UTILISATEURS As ToolStripButton
-    Friend WithEvents ACCEUIL As ToolStripButton
-    Friend WithEvents MESSAGERIE As ToolStripButton
-    Friend WithEvents PIDA As ToolStripButton
-    Friend WithEvents GEOLOCALISATION As ToolStripButton
-    Friend WithEvents GMAO As ToolStripButton
-    Friend WithEvents REPORTING As ToolStripButton
     Friend WithEvents ImageList1 As ImageList
-    Friend WithEvents ToolStripLabel2 As ToolStripLabel
-    Friend WithEvents ToolStripLabel1 As ToolStripLabel
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents BtnGMAO As Button
+    Friend WithEvents BtnUtilisateur As Button
+    Friend WithEvents BtnReport As Button
+    Friend WithEvents BtnGeo As Button
+    Friend WithEvents BtnPida As Button
+    Friend WithEvents BtnMessagerie As Button
+    Friend WithEvents BtnPiste As Button
+    Friend WithEvents BtnAcc As Button
+    Friend WithEvents BtnSupervision As Button
+    Friend WithEvents BtnRm As Button
+    Friend WithEvents StatusStrip1 As StatusStrip
+    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
+    Friend WithEvents SplitContainer1 As SplitContainer
 End Class
