@@ -1,7 +1,11 @@
-﻿Public Class Form1
+﻿Public Class MENU
 
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim NumVersion = My.Application.Info.Version.ToString
+        Dim Copyright = My.Application.Info.Copyright.ToString
+        Dim Soc = My.Application.Info.CompanyName.ToString
+        NumVers.Text = NumVersion + "         Société " + Soc + "         " + Copyright
 
     End Sub
 
@@ -14,75 +18,65 @@
         End If
 
     End Sub
-    Private Sub REMONTEES_Click_1(sender As Object, e As EventArgs)
-        Dim fichier As String
-        fichier = Application.StartupPath + "\RM\SKI VIEW RM.exe"
-        Shell(fichier, AppWinStyle.NormalFocus)
-    End Sub
 
 
-    Private Sub BtnSupervision_Click(sender As Object, e As EventArgs) Handles BtnSupervision.Click
+    Private Sub ANIMATION_Click(sender As Object, e As EventArgs) Handles ANIMATION.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\SUPERVISION\SKI VIEW.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnRm_Click(sender As Object, e As EventArgs) Handles BtnRm.Click
+    Private Sub REMONTEES_Click(sender As Object, e As EventArgs) Handles REMONTEES.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\RM\SKI VIEW RM.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnPiste_Click(sender As Object, e As EventArgs) Handles BtnPiste.Click
+    Private Sub PISTES_Click(sender As Object, e As EventArgs) Handles PISTES.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\PISTES\PISTES.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnAcc_Click(sender As Object, e As EventArgs) Handles BtnAcc.Click
+    Private Sub ACCEUIL_Click(sender As Object, e As EventArgs) Handles ACCEUIL.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\ACCEUIL\ACCEUIL.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnMessagerie_Click(sender As Object, e As EventArgs) Handles BtnMessagerie.Click
+    Private Sub MESSAGERIE_Click(sender As Object, e As EventArgs) Handles MESSAGERIE.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\MESSAGERIE\MESSAGERIE.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnPida_Click(sender As Object, e As EventArgs) Handles BtnPida.Click
+    Private Sub PIDA_Click(sender As Object, e As EventArgs) Handles PIDA.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\PIDA\PIDA.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnGeo_Click(sender As Object, e As EventArgs) Handles BtnGeo.Click
+    Private Sub GEOLOCALISATION_Click(sender As Object, e As EventArgs) Handles GEOLOCALISATION.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\GEOLOCALISATION\GEOLOCALISATION.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnReport_Click(sender As Object, e As EventArgs) Handles BtnReport.Click
+    Private Sub REPORTING_Click(sender As Object, e As EventArgs) Handles REPORTING.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\REPORTING\REPORTING.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
 
-    Private Sub BtnUtilisateur_Click(sender As Object, e As EventArgs) Handles BtnUtilisateur.Click
+    Private Sub UTILISATEURS_Click(sender As Object, e As EventArgs) Handles UTILISATEURS.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\UTILISATEURS\UTILISATEURS.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
     End Sub
-
-    Private Sub BtnGMAO_Click(sender As Object, e As EventArgs) Handles BtnGMAO.Click
+    Private Sub GMAO_Click(sender As Object, e As EventArgs) Handles GMAO.Click
         Dim fichier As String
         fichier = Application.StartupPath + "\GMAO\GMAO.exe"
         Shell(fichier, AppWinStyle.NormalFocus)
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
     End Sub
 
 #End Region
